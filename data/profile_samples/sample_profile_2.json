@@ -1,0 +1,136 @@
+{
+  "public_identifier": "jane-smith-sample",
+  "profile_pic_url": "https://example.com/photos/jane-smith.jpg",
+  "first_name": "Jane",
+  "last_name": "Smith",
+  "full_name": "Jane Smith",
+  "headline": "Machine Learning Engineer | AI Enthusiast | MS in Computer Science",
+  "summary": "Passionate ML engineer with expertise in deep learning, NLP, and computer vision. Building AI solutions that make a difference.",
+  "city": "San Francisco",
+  "state": "California",
+  "country": "US",
+  "country_full_name": "United States of America",
+  "follower_count": 3420,
+  "connections": 1567,
+  "occupation": "Machine Learning Engineer at AI Innovations",
+  "experiences": [
+    {
+      "starts_at": {"day": 1, "month": 1, "year": 2022},
+      "ends_at": null,
+      "company": "AI Innovations",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/ai-innovations-sample",
+      "title": "Machine Learning Engineer",
+      "description": "Developing and deploying ML models for natural language processing applications.",
+      "location": "San Francisco, California, United States",
+      "logo_url": "https://example.com/logos/ai-innovations.png"
+    },
+    {
+      "starts_at": {"day": 1, "month": 7, "year": 2020},
+      "ends_at": {"day": 31, "month": 12, "year": 2021},
+      "company": "DataTech Labs",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/datatech-labs-sample",
+      "title": "Data Scientist",
+      "description": "Built predictive models and conducted A/B testing for product optimization.",
+      "location": "Austin, Texas",
+      "logo_url": "https://example.com/logos/datatech-labs.png"
+    },
+    {
+      "starts_at": {"day": 1, "month": 6, "year": 2019},
+      "ends_at": {"day": 30, "month": 6, "year": 2020},
+      "company": "StartupXYZ",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/startupxyz-sample",
+      "title": "Data Analyst Intern",
+      "description": "Analyzed user behavior data and created dashboards for stakeholders.",
+      "location": "Remote",
+      "logo_url": "https://example.com/logos/startupxyz.png"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2018},
+      "ends_at": {"day": 31, "month": 5, "year": 2020},
+      "field_of_study": "Computer Science - Machine Learning",
+      "degree_name": "Master of Science",
+      "school": "Tech Institute",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/tech-institute-sample",
+      "description": "Focus on Machine Learning and Artificial Intelligence",
+      "logo_url": "https://example.com/logos/tech-institute.png",
+      "grade": "3.9",
+      "activities_and_societies": "AI Research Lab, Women in Tech"
+    },
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2014},
+      "ends_at": {"day": 31, "month": 5, "year": 2018},
+      "field_of_study": "Mathematics",
+      "degree_name": "Bachelor of Science",
+      "school": "National University",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/national-university-sample",
+      "description": null,
+      "logo_url": "https://example.com/logos/national-university.png",
+      "grade": "3.8",
+      "activities_and_societies": null
+    }
+  ],
+  "languages": ["English", "Mandarin", "French"],
+  "certifications": [
+    {
+      "starts_at": {"day": 1, "month": 3, "year": 2021},
+      "ends_at": null,
+      "name": "AWS Certified Machine Learning - Specialty",
+      "license_number": "SAMPLE-AWS-ML-001",
+      "authority": "Amazon Web Services",
+      "url": "https://www.credly.com/sample-aws"
+    },
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2020},
+      "ends_at": null,
+      "name": "TensorFlow Developer Certificate",
+      "license_number": "SAMPLE-TF-002",
+      "authority": "Google",
+      "url": "https://www.credential.net/sample"
+    }
+  ],
+  "accomplishment_honors_awards": [
+    {
+      "title": "Best Paper Award - AI Conference 2022",
+      "issuer": "International AI Society",
+      "issued_on": {"day": 15, "month": 6, "year": 2022},
+      "description": "Recognized for research on transformer architectures"
+    }
+  ],
+  "accomplishment_projects": [
+    {
+      "starts_at": {"day": 1, "month": 1, "year": 2021},
+      "ends_at": {"day": 30, "month": 6, "year": 2021},
+      "title": "Sentiment Analysis Platform",
+      "description": "Built an end-to-end sentiment analysis platform using BERT and FastAPI",
+      "url": "https://github.com/sample/sentiment-analysis"
+    }
+  ],
+  "volunteer_work": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://example.com/groups/ml-engineers.png",
+      "name": "Machine Learning Engineers Community",
+      "url": "https://www.linkedin.com/groups/sample-ml"
+    },
+    {
+      "profile_pic_url": "https://example.com/groups/women-in-ai.png",
+      "name": "Women in AI",
+      "url": "https://www.linkedin.com/groups/sample-wai"
+    }
+  ],
+  "people_also_viewed": [
+    {
+      "link": "https://www.linkedin.com/in/sample-user-2",
+      "name": "Mike Johnson",
+      "summary": "Senior ML Engineer at Google",
+      "location": "Mountain View, CA"
+    }
+  ],
+  "recommendations": [],
+  "activities": [],
+  "skills": ["Python", "TensorFlow", "PyTorch", "NLP", "Deep Learning", "SQL", "AWS"],
+  "personal_emails": [],
+  "personal_numbers": []
+}

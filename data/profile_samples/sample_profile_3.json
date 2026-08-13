@@ -1,0 +1,87 @@
+{
+  "public_identifier": "alex-kumar-sample",
+  "profile_pic_url": "https://example.com/photos/alex-kumar.jpg",
+  "first_name": "Alex",
+  "last_name": "Kumar",
+  "full_name": "Alex Kumar",
+  "headline": "Database Administrator | Azure Certified | Cloud Migration Specialist",
+  "summary": "Experienced DBA with 6+ years managing SQL Server and Azure databases. Specialized in performance tuning, high availability, and cloud migrations.",
+  "city": "Dallas",
+  "state": "Texas",
+  "country": "US",
+  "country_full_name": "United States of America",
+  "follower_count": 876,
+  "connections": 654,
+  "occupation": "Senior Database Administrator at Enterprise Corp",
+  "experiences": [
+    {
+      "starts_at": {"day": 1, "month": 4, "year": 2022},
+      "ends_at": null,
+      "company": "Enterprise Corp",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/enterprise-corp-sample",
+      "title": "Senior Database Administrator",
+      "description": "Managing 50+ production databases and leading cloud migration initiatives.",
+      "location": "Dallas, Texas, United States",
+      "logo_url": "https://example.com/logos/enterprise-corp.png"
+    },
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2019},
+      "ends_at": {"day": 31, "month": 3, "year": 2022},
+      "company": "IT Services Global",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/it-services-global-sample",
+      "title": "Database Administrator",
+      "description": "Administered SQL Server databases and implemented disaster recovery solutions.",
+      "location": "Houston, Texas",
+      "logo_url": "https://example.com/logos/it-services.png"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2015},
+      "ends_at": {"day": 31, "month": 5, "year": 2019},
+      "field_of_study": "Information Technology",
+      "degree_name": "Bachelor of Technology",
+      "school": "Technical University",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/technical-university-sample",
+      "description": null,
+      "logo_url": "https://example.com/logos/technical-university.png",
+      "grade": "3.6",
+      "activities_and_societies": "IT Club"
+    }
+  ],
+  "languages": ["English", "Hindi"],
+  "certifications": [
+    {
+      "starts_at": {"day": 1, "month": 7, "year": 2022},
+      "ends_at": {"day": 31, "month": 7, "year": 2024},
+      "name": "Microsoft Certified: Azure Database Administrator Associate",
+      "license_number": "SAMPLE-AZ-DBA",
+      "authority": "Microsoft",
+      "url": "https://www.credly.com/sample-azure"
+    },
+    {
+      "starts_at": {"day": 1, "month": 2, "year": 2021},
+      "ends_at": null,
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "license_number": "SAMPLE-AZ-900",
+      "authority": "Microsoft",
+      "url": "https://www.credly.com/sample-az900"
+    }
+  ],
+  "accomplishment_honors_awards": [],
+  "accomplishment_projects": [],
+  "volunteer_work": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://example.com/groups/azure-dba.png",
+      "name": "Azure Database Administrators",
+      "url": "https://www.linkedin.com/groups/sample-azure-dba"
+    }
+  ],
+  "people_also_viewed": [],
+  "recommendations": [],
+  "activities": [],
+  "skills": ["SQL Server", "Azure SQL", "Performance Tuning", "High Availability", "PowerShell"],
+  "personal_emails": [],
+  "personal_numbers": []
+}

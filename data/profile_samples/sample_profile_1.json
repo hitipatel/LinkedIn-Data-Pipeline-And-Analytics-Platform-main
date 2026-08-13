@@ -1,0 +1,93 @@
+{
+  "public_identifier": "john-doe-sample",
+  "profile_pic_url": "https://example.com/photos/john-doe.jpg",
+  "first_name": "John",
+  "last_name": "Doe",
+  "full_name": "John Doe",
+  "headline": "Senior Data Analyst at Tech Solutions Inc.",
+  "summary": "Experienced data professional with 5+ years in business intelligence, data visualization, and analytics. Passionate about turning data into actionable insights.",
+  "city": "Chicago",
+  "state": "Illinois",
+  "country": "US",
+  "country_full_name": "United States of America",
+  "follower_count": 1250,
+  "connections": 890,
+  "occupation": "Senior Data Analyst at Tech Solutions Inc.",
+  "experiences": [
+    {
+      "starts_at": {"day": 1, "month": 3, "year": 2021},
+      "ends_at": null,
+      "company": "Tech Solutions Inc.",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/tech-solutions-sample",
+      "title": "Senior Data Analyst",
+      "description": "Leading data analytics initiatives and building dashboards for executive reporting.",
+      "location": "Chicago, Illinois, United States",
+      "logo_url": "https://example.com/logos/tech-solutions.png"
+    },
+    {
+      "starts_at": {"day": 1, "month": 6, "year": 2018},
+      "ends_at": {"day": 28, "month": 2, "year": 2021},
+      "company": "Data Corp",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/data-corp-sample",
+      "title": "Data Analyst",
+      "description": "Developed automated reporting solutions and performed statistical analysis.",
+      "location": "New York, NY",
+      "logo_url": "https://example.com/logos/data-corp.png"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {"day": 1, "month": 8, "year": 2014},
+      "ends_at": {"day": 31, "month": 5, "year": 2018},
+      "field_of_study": "Computer Science",
+      "degree_name": "Bachelor of Science",
+      "school": "State University",
+      "school_linkedin_profile_url": "https://www.linkedin.com/company/state-university-sample",
+      "description": null,
+      "logo_url": "https://example.com/logos/state-university.png",
+      "grade": "3.7",
+      "activities_and_societies": "Data Science Club, Student Government"
+    }
+  ],
+  "languages": ["English", "Spanish"],
+  "certifications": [
+    {
+      "starts_at": {"day": 1, "month": 5, "year": 2022},
+      "ends_at": null,
+      "name": "Tableau Desktop Certified Professional",
+      "license_number": "SAMPLE-12345",
+      "authority": "Tableau",
+      "url": "https://www.credly.com/sample"
+    }
+  ],
+  "accomplishment_honors_awards": [
+    {
+      "title": "Employee of the Quarter",
+      "issuer": "Tech Solutions Inc.",
+      "issued_on": {"day": 1, "month": 9, "year": 2022},
+      "description": "Recognized for outstanding performance in Q3 2022"
+    }
+  ],
+  "accomplishment_projects": [],
+  "volunteer_work": [],
+  "groups": [
+    {
+      "profile_pic_url": "https://example.com/groups/data-analytics.png",
+      "name": "Data Analytics Professionals",
+      "url": "https://www.linkedin.com/groups/sample-1"
+    }
+  ],
+  "people_also_viewed": [
+    {
+      "link": "https://www.linkedin.com/in/sample-user-1",
+      "name": "Jane Smith",
+      "summary": "Business Intelligence Developer",
+      "location": "Chicago, IL"
+    }
+  ],
+  "recommendations": [],
+  "activities": [],
+  "skills": ["SQL", "Python", "Tableau", "Power BI", "Excel"],
+  "personal_emails": [],
+  "personal_numbers": []
+}

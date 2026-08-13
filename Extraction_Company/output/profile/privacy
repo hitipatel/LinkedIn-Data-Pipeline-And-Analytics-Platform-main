@@ -1,0 +1,5 @@
+Output files containing LinkedIn profile photos have been removed for privacy protection.
+
+These images contain personal identifiable information and are excluded from the repository.
+
+To generate these files, run the extraction scripts locally with your own API credentials.

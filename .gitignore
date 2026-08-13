@@ -1,0 +1,129 @@
+# ============================================
+# ENVIRONMENT & CREDENTIALS
+# ============================================
+.env
+.env.local
+.env.production
+*.env
+credentials/
+secrets/
+*.pem
+*.key
+api_keys.txt
+
+# ============================================
+# API KEYS & SENSITIVE DATA
+# ============================================
+proxycurl_api_key*
+*api_key*
+*secret*
+
+# ============================================
+# DATA FILES (Privacy Protection)
+# ============================================
+# JSON data files (contain personal info)
+data/profiles/*.json
+!data/profiles/sample_*.json
+
+# Photos
+data/photos/
+*.jpg
+*.jpeg
+*.png
+*.gif
+!docs/images/*.png
+
+# CSV with personal data
+*.csv
+!sample_*.csv
+
+# ============================================
+# PENTAHO
+# ============================================
+# Pentaho logs
+*.log
+**/kettle.log
+**/pdi.log
+
+# Pentaho temp files
+**/.kettle/
+**/repositories.xml
+**/kettle.properties
+**/shared.xml
+
+
+
+# ============================================
+# DATABASE
+# ============================================
+*.sql.bak
+*.dump
+*.sqlite
+*.db
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# ============================================
+# OS FILES
+# ============================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ============================================
+# TEMP & CACHE
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ============================================
+# LARGE FILES
+# ============================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# LOGS
+# ============================================
+logs/
+*.log
+npm-debug.log*
+
+# ============================================
+# BUILD & OUTPUT
+# ============================================
+build/
+dist/
+exports/
