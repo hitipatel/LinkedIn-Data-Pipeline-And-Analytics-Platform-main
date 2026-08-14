@@ -32,44 +32,27 @@ LinkedIn → Proxycurl API → JSON Files → Pentaho ETL → MySQL (Bronze)
 
 ## 📁 Project Structure
 
-```
-linkedin-data-mart/
+```text
+LinkedIn-Data-Pipeline-And-Analytics-Platform/
 │
-├── ETL_transformations/linkedin-etl/
-│   ├── Transformation_demographic.ktr
-│   ├── Transformation_education.ktr
-│   ├── Transformation_experience.ktr
-│   ├── Transformation_certifications.ktr
-│   ├── Transformation_language.ktr
-│   ├── Transformation_Group_Memberships.ktr
-│   ├── Transformation_honors_awards.ktr
-│   ├── Transformation_People_Also_Viewed.ktr
-│   ├── Transformation_projects.ktr
-│   └── output/
+├── ETL_transformations_profile/
+│   └── Pentaho ETL transformation files
 │
 ├── Extraction_Company/
-│   ├── get-linkedin-company-urls.ktr
-│   ├── create-company-json.ktr
-│   ├── create-company-json-files.kjb
-│   ├── download-company-json-files.kjb
-│   ├── extract-company-photo-urls.ktr
-│   ├── download-company-photos.kjb
-│   ├── create-company-photo.kjb
-│   ├── main-refresh-linkedin-company.kjb
-│   └── output/
+│   └── Company data extraction workflows
 │
-├── dremio/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+├── data/
+│   ├── companies/
+│   └── profile_samples/
 │
-├── docs/images/
-│   └── architecture.png
+├── docs/
+│   └── images/
+│       └── architecture.png
 │
+├── .gitattributes
+├── .gitignore
 └── README.md
 ```
-
----
 
 ## 🔄 Data Flow
 
@@ -151,15 +134,15 @@ data/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone repository
-git clone https://github.com/Vinay9015/LinkedIn-Data-Pipeline-And-Analytics-Platform.git
+git clone https://github.com/hitipatel/LinkedIn-Data-Pipeline-And-Analytics-Platform.git
 
 # Setup environment
 cp .env.example .env
-# Edit .env with your credentials
+# Add your own credentials to .env
 
 # Run Pentaho transformations
 # Open Pentaho Spoon → Load .ktr/.kjb files → Execute
@@ -167,13 +150,17 @@ cp .env.example .env
 
 ---
 
-## 👤 Author
+## Author
 
-**Vinay Kambhampati**
-- 📧 vinaykambhampati07@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/kambhampati-vinay)
-- 🐙 [GitHub](https://github.com/Vinay9015)
+**Hiti Patel**
+
+- GitHub: https://github.com/hitipatel
+
+## Project Attribution
+
+This project is based on an existing LinkedIn data pipeline implementation.
+
+The current repository represents my own implementation and understanding
+of the data extraction, ETL, transformation, and analytics workflow.
 
 ---
-
-*Built as part of MS in IT Management program(data analytics) at Illinois Institute of Technology*
